@@ -35,6 +35,18 @@ app.use(ArcoVue);
 app.mount('#app');
 ```
 
+### Arco plugins
+
+#### Feature
+
+- Style lazy load
+- Theme import
+- Icon replacement
+
+#### Usage
+
+[Vite plugin](https://github.com/arco-design/arco-plugins/tree/main/packages/plugin-vite-vue)
+
 ## On-demand Import (template)
 
 If you use the template method for development, you can use the [unplugin-vue-components](https://github.com/antfu/unplugin-vue-components) plug-in to enable on-demand import support.
