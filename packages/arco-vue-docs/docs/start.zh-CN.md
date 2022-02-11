@@ -33,18 +33,6 @@ app.use(ArcoVue);
 app.mount('#app');
 ```
 
-### Arco 插件
-
-#### 功能
-
-- 样式按需加载
-- 主题引入
-- 图标替换
-
-#### 使用
-
-[Vite 插件](https://github.com/arco-design/arco-plugins/tree/main/packages/plugin-vite-vue)
-
 ## 按需加载（模板）
 
 如果使用模板方式进行开发，可以使用 [unplugin-vue-components](https://github.com/antfu/unplugin-vue-components) 插件来开启按需加载的支持。
